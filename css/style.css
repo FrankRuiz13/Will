@@ -7,6 +7,7 @@
   text-align: center;
   background: #000411;
   background-size: cover;
+  box-shadow: 2px 2px 7px rgba(0,0,0,0.7);
   position: relative;
   overflow: visible;
   display: -webkit-flex;
@@ -62,6 +63,103 @@
   background: rgba(254, 254, 254, 0.15);
 }
 
+.grid-container {
+  margin: 100px;
+  text-align: center;
+}
+
+.card {
+  background: #160c28;
+  border-radius: 0rem 0rem 0rem 1rem;
+  box-shadow: 2px 2px 7px rgba(0,0,0,0.7);
+  width: 250px;
+  height: 250px;
+  border: 1px black !important;
+  margin: 10px;
+  text-align: center;
+  padding: 15px;
+  display: inline-block;
+  
+}
+
+.card-2 {
+  background: #efcb68;
+  border-radius: 0rem 0rem 0rem 1rem;
+  box-shadow: 2px 2px 7px rgba(0,0,0,0.7);
+  width: 250px;
+  height: 250px;
+  border: 1px black !important;
+  margin: 10px;
+  text-align: center;
+  padding: 15px;
+  display: inline-block;
+}
+
+.card-3 {
+  background: #e1efe6;
+  border-radius: 0rem 0rem 0rem 1rem;
+  box-shadow: 2px 2px 7px rgba(0,0,0,0.7);
+  width: 250px;
+  height: 250px;
+  border: 1px black !important;
+  margin: 10px;
+  text-align: center;
+  padding: 15px;
+  display: inline-block;
+}
+
+
+.card-info {
+  padding: 1rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 2.5rem;
+      grid-template-rows: 1fr 2.5rem;
+  -ms-grid-columns: 3fr 1fr;
+      grid-template-columns: 3fr 1fr;
+}
+
+.card-title {
+  font-size: 2rem;
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+}
+
+.card-icon {
+  grid-row: 1 / 2;
+  grid-column: 2 / 3;
+  justify-self: right;
+  width: 30px;
+  height: 30px;
+  background-color: LightBlue;
+  border-radius: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column-align: center;
+      justify-items: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-author {
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
+  -webkit-align-self: bottom;
+      -ms-flex-item-align: bottom;
+              -ms-grid-row-align: bottom;
+          align-self: bottom;
+}
+
+.card-stats {
+  -webkit-align-self: bottom;
+      -ms-flex-item-align: bottom;
+              -ms-grid-row-align: bottom;
+          align-self: bottom;
+  justify-self: right;
+}
+
+
 
 
 .social-footer {
@@ -76,6 +174,7 @@
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-top: 10vh !important;
   
 }
 
@@ -91,6 +190,9 @@
   color: #000411;
   
 }
+
+
+
 
 .social-footer .social-footer-icons .fa:hover {
   color: #e1efe6;
