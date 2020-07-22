@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+}
+
+
+.subnav-hero-section {
+  text-align: center;
+  background: #000411;
+  background-size: cover;
+  position: relative;
+  overflow: visible;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 3rem;
+  height: 30vh;
+}
+
+.subnav-hero-section .subnav-hero-headline {
+  color: #e1efe6;
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 1.5px;
+}
+
+.subnav-hero-subnav {
+  float: none;
+  position: absolute;
+  text-align: center;
+  margin: 0 auto;
+  bottom: 0;
+  width: 100%;
+}
+
+.subnav-hero-subnav li {
+  float: none;
+  display: inline-block;
+}
+
+.subnav-hero-subnav li a {
+  padding: 0.9rem 1rem;
+  font-size: 1rem;
+  color: #e1efe6;
+  text-transform: uppercase;
+  display: block;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: all 0.35s ease-in-out;
+}
+
+.subnav-hero-subnav li a.is-active {
+  background: rgba(254, 254, 254, 0.15);
+}
+
+.subnav-hero-subnav li a:hover {
+  background: rgba(254, 254, 254, 0.15);
+}
+
+
+
+.social-footer {
+  padding: 1rem;
+  background: white;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  
+}
+
+.social-footer li {
+  list-style: none;
+  float: left;
+  padding: 10px;
+}
+
+
+.social-footer .social-footer-icons .fa { 
+  font-size: 1.7rem;
+  color: #000411;
+  
+}
+
+.social-footer .social-footer-icons .fa:hover {
+  color: #e1efe6;
+  transition: color 0.3s ease-in;
+}
+
+
+  
