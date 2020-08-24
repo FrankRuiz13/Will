@@ -23,7 +23,6 @@ body {
   -ms-flex-pack: center;
   justify-content: center;
   height: 300px;
-  z-index: 10;
 }
 
 .subnav-hero-section .subnav-hero-headline {
@@ -68,7 +67,7 @@ body {
   background: rgba(254, 254, 254, 0.15);
 }
 
-img {
+.bio-image {
   border-radius: 50%;
   height: 300px;
   width: 300px;
@@ -100,7 +99,7 @@ img {
   font-style: italic;
   line-height: 1.45rem;
   margin-top: 1rem;
-  margin-bottom: 0;
+  margin-bottom: 5px;
 }
 
 .product-card-desc {
@@ -158,7 +157,7 @@ hr {
 .contact-us-section {
   margin: 200px;
   padding: 2rem;
-  background: #fefefe;
+  background: #702632;
   font-family: "Fira Code";
   overflow: auto;
 }
@@ -282,6 +281,10 @@ screen and (min-width: 40em) {
 
   .contact-us-section {
     margin: 20px;
+  }
+
+  .subnav-hero-section {
+    flex: wrap;
   }
 
 }
