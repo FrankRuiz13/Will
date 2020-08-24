@@ -23,6 +23,7 @@ body {
   -ms-flex-pack: center;
   justify-content: center;
   height: 300px;
+  margin-bottom: 30px;
 }
 
 .subnav-hero-section .subnav-hero-headline {
@@ -81,10 +82,15 @@ body {
 .product-card {
   background-color: #702632;
   color: #f8f7ff;
+  font-family: "Fira Code", monospace;
+  font-size: 16px;
+  line-height: 24px !important;
   padding: 1rem;
   margin: 200px;
   margin-bottom: 1.5rem;
   text-align: center;
+  height: 700px;
+  width: 600px;
 }
 
 .product-card-thumbnail {
@@ -143,23 +149,78 @@ hr {
   margin-top: 20px;
 }
 
-.work-feature-block {
-  margin-top: 20px;
-  padding: 10px 0;
+
+
+.featured-items {
+  background: #000505;
+  margin-bottom: 4rem;
+  padding: 1rem 1rem;
 }
 
-.work-feature-block-image {
-  display: block;
-  margin: auto;
-  padding: 10px 0;
+@media screen and (max-width: 39.9375em) {
+  .featured-items h4 {
+    font-size: 1.5rem;
+  }
 }
+
+.featured-items p {
+  color: #808080;
+}
+
+.featured-items .featured-items-brands {
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .featured-items .featured-items-brands {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
+
+.featured-items .featured-items-title {
+  color: #f8f7ff;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 39.9375em) {
+  .featured-items .featured-items-brands img {
+    -webkit-flex-basis: 40%;
+    -ms-flex-preferred-size: 40%;
+    flex-basis: 40%;
+    margin-bottom: 1rem;
+  }
+
+  .featured-items .featured-items-title {
+    margin-bottom: 1rem;
+  }
+}
+
+
+
 
 .contact-us-section {
-  margin: 200px;
+  margin: auto;
   padding: 2rem;
+  padding-top: 30px;
   background: #702632;
-  font-family: "Fira Code";
+  font-family: "Fira Code", monospace;
   overflow: auto;
+  height: 700px;
+  width: 700px;
 }
 
 .contact-us-section h1 {
@@ -271,20 +332,54 @@ screen and (min-width: 40em) {
 }
 
 
+
+.social-footer {
+  margin-top: 10vh;
+  align-content: center;
+  padding: 1rem;
+  background: #000505;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.social-footer .social-footer-icons .fa {
+  font-size: 1.5rem;
+  color: #f8f7ff;
+}
+
+.social-footer .social-footer-icons .fa:hover {
+  color: #4a4a4a;
+  transition: color 0.3s ease-in;
+}
+
+
+
 /* media queries */
 
 @media only screen and (max-width: 600px) {
 
   .product-card {
+    height: auto;
+    width: auto;
     margin: 20px;
   }
 
   .contact-us-section {
     margin: 20px;
+    height: auto;
+    width: auto;
   }
 
   .subnav-hero-section {
-    flex: wrap;
+    height: auto;
+    width: auto;
   }
 
 }
