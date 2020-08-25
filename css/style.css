@@ -367,8 +367,9 @@ screen and (min-width: 40em) {
   }
 
   .subnav-hero-subnav li a {
-    font-size: 8px;
+    font-size: 10px;
     margin: auto;
+    padding: 3px;
   }
 
 
@@ -393,8 +394,9 @@ screen and (min-width: 40em) {
   }
 
   .subnav-hero-subnav li a {
-    font-size: 8px;
+    font-size: 10px;
     margin: auto;
+    padding: 3px;
   }
 
 }
