@@ -360,6 +360,11 @@ screen and (min-width: 40em) {
     width: auto;
   }
 
+  .subnav-hero-subnav li a {
+    font-size: 8px;
+    margin: auto;
+  }
+
 
 
 }
