@@ -333,7 +333,7 @@ screen and (min-width: 40em) {
 
 .social-footer {
   margin-top: 30px;
-  margin-bottom: 0;
+  margin-bottom: 15px;
   text-align: center;
 
 }
@@ -375,7 +375,7 @@ screen and (min-width: 40em) {
 
 }
 
-@media only and screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
   .subnav-hero-headline {
     margin: auto;
   }
@@ -396,6 +396,5 @@ screen and (min-width: 40em) {
     font-size: 12px;
     margin: auto;
   }
-
 
 }
