@@ -325,6 +325,12 @@ screen and (min-width: 40em) {
   content: "\f098";
 }
 
+.button {
+  background: #8a8a8a
+}
+
+/* footer */
+
 .social-footer {
   margin-top: 30px;
   margin-bottom: 0;
@@ -365,6 +371,31 @@ screen and (min-width: 40em) {
     margin: auto;
   }
 
+
+
+}
+
+@media only and screen and (max-width: 1000px) {
+  .subnav-hero-headline {
+    margin: auto;
+  }
+
+  .product-card {
+    height: auto;
+    width: auto;
+    margin: 20px;
+  }
+
+  .contact-us-section {
+    margin: 20px;
+    height: auto;
+    width: auto;
+  }
+
+  .subnav-hero-subnav li a {
+    font-size: 12px;
+    margin: auto;
+  }
 
 
 }
