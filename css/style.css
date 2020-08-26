@@ -2,6 +2,8 @@ body {
   background: #000505;
 }
 
+
+
 .subnav-hero-section {
   text-align: center;
   background: #000505;
@@ -65,6 +67,7 @@ body {
   background: rgba(254, 254, 254, 0.15);
 }
 
+
 .bio-image {
   border-radius: 50%;
   height: 300px;
@@ -72,9 +75,6 @@ body {
   text-align: center;
 }
 
-#anthony {
-  filter: grayscale(50%);
-}
 
 
 .product-card {
@@ -394,9 +394,33 @@ screen and (min-width: 40em) {
   }
 
   .subnav-hero-subnav li a {
-    font-size: 10px;
+    font-size: 11px;
     margin: auto;
     padding: 3px;
   }
 
+}
+
+@media only screen and (min-width: 1200px) {
+  .subnav-hero-headline {
+    margin: auto;
+  }
+
+  .product-card {
+    height: 700px;
+    width: 600px;
+    margin: 20px;
+  }
+
+  .contact-us-section {
+    margin: auto;
+    height: 700px;
+    width: 700px;
+  }
+
+  .subnav-hero-subnav li a {
+    font-size: 1rem;
+    margin: auto;
+    padding: 3px;
+  }
 }
