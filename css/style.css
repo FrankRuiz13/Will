@@ -98,7 +98,8 @@ body {
 }
 
 .product-card-title {
-  color: #702632;
+  color: #ffb627;
+  text-shadow: 2px 2px 7px #000000;
   filter: brightness(100%);
   border-radius: 1rem;
   font-family: 'Open sans', sans-serif;
