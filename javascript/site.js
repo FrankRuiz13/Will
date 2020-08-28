@@ -1,3 +1,8 @@
-$('[data-curtain-menu-button]').click(function () {
-    $('body').toggleClass('curtain-menu-open');
-})
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
