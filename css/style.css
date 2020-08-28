@@ -166,8 +166,11 @@ iframe {
   background: #f8f7ff;
   border-radius: 1rem;
   color: #000505;
-  padding: 10px;
+  padding: 15px;
+  text-align: left;
+  text-indent: 1.5rem;
 }
+
 
 .featured-items .featured-items-brands {
   -webkit-flex: 1 0 auto;
@@ -365,8 +368,8 @@ screen and (min-width: 40em) {
   .product-card {
     height: auto;
     width: auto;
-    margin: 20px;
   }
+
 
   .contact-us-section {
     margin: 20px;
@@ -415,9 +418,19 @@ screen and (min-width: 40em) {
   }
 
   .product-card {
-    height: 700px;
-    width: 600px;
+    height: 750px;
+    width: 700px;
     margin: 20px;
+  }
+
+  .product-card-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+
+  .bio-image {
+    margin-top: 30px;
   }
 
   .contact-us-section {
