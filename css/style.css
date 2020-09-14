@@ -87,6 +87,13 @@ body {
   margin-bottom: 5px;
 }
 
+.bio-link {
+  color: #ffb627;
+  font-size: 1.7rem;
+  text-shadow: 2px 2px 7px #000000;
+
+}
+
 .product-card-desc {
   color: #8a8a8a;
   display: block;
